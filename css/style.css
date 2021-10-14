@@ -1370,39 +1370,6 @@ a:focus {
     transition: .3s;
 }
 
-.footer .footer-newsletter .btn:hover {
-    color: #D5B981;
-    background: #1d2434;
-}
-
-.footer .copyright {
-    padding: 0 30px;
-}
-
-.footer .copyright .row {
-    background: #ffffff;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.footer .copyright p {
-    margin: 0;
-    color: #454545;
-}
-
-.footer .copyright .col-md-6:last-child p {
-    text-align: right;
-}
-
-.footer .copyright p a {
-    color: #1d2434;
-    font-weight: 700;
-}
-
-.footer .copyright p a:hover {
-    color: #D5B981;
-}
-
 @media (max-width: 767.98px) {
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
