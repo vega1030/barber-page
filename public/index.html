@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Barber X - Barber Shop Template</title>
+        <title>Barber X</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -58,7 +58,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Barberia <span>V</span></a>
+                <a href="index.html" class="navbar-brand">Barberia <span>X</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -151,7 +151,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="">Leer Mas</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -163,7 +163,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="">Leer Mas</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -175,7 +175,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="">Leer Mas</a>
                         </div>
                     </div>
                 </div>
@@ -188,8 +188,8 @@
         <div class="price" id="prices">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Our Best Pricing</p>
-                    <h2>We Provide Best Price in the City</h2>
+                    <p>La mejor reclacion precio/calidad</p>
+                    <h2>Nuestros Mejores precios</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-6">
@@ -537,9 +537,6 @@
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
-
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -552,6 +549,34 @@
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
+
+        <!-- File Firebase -->
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+                apiKey: "AIzaSyAhB5rxc1Rviz-hxBgw9hm4MOu5a9gvTX8",
+                authDomain: "barber-page.firebaseapp.com",
+                projectId: "barber-page",
+                storageBucket: "barber-page.appspot.com",
+                messagingSenderId: "398495398465",
+                appId: "1:398495398465:web:e248def3bc35f408c4e4c0",
+                measurementId: "G-9FZ5WSFNWZ"
+            };
+        
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+            </script>
+
+        <!-- End -->
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
